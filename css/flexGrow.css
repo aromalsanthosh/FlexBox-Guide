@@ -13,3 +13,20 @@ body {
     align-items: flex-start;
     width: 600px;
 }
+
+
+.sample1 > * {
+    flex-grow: 0;
+}
+
+.sample2 > * {
+    flex-grow: 1;
+}
+
+.sample3 div:nth-child(2) {
+    flex-grow: 1;
+}
+
+.sample3 div:nth-child(3) {
+    flex-grow: 2;
+}
